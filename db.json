@@ -20,23 +20,8 @@
       "email": "user@hospital.com",
       "password": "user123",
       "role": "User"
-    },
-    {
-      "id": 4,
-      "name": "Diana Patient",
-      "email": "diana@hospital.com",
-      "password": "user123",
-      "role": "User"
-    },
-    {
-      "id": 5,
-      "name": "Ethan Patient",
-      "email": "ethan@hospital.com",
-      "password": "user123",
-      "role": "User"
     }
   ],
-
   "doctors": [
     {
       "id": 1,
@@ -45,8 +30,7 @@
       "fee": 1500,
       "experienceYears": 12,
       "availableSlots": ["10:00", "11:30", "15:00"],
-      "availableDays": ["Mon", "Wed", "Fri"],
-      "departmentId": 1
+      "availableDays": ["Mon", "Wed", "Fri"]
     },
     {
       "id": 2,
@@ -55,8 +39,7 @@
       "fee": 1200,
       "experienceYears": 9,
       "availableSlots": ["09:30", "14:00"],
-      "availableDays": ["Tue", "Thu", "Sat"],
-      "departmentId": 2
+      "availableDays": ["Tue", "Thu", "Sat"]
     },
     {
       "id": 3,
@@ -65,31 +48,9 @@
       "fee": 900,
       "experienceYears": 7,
       "availableSlots": ["10:30", "12:00", "16:00"],
-      "availableDays": ["Mon", "Tue", "Thu"],
-      "departmentId": 3
-    },
-    {
-      "id": 4,
-      "name": "Dr. Rohan Desai",
-      "specialization": "dermatology",
-      "fee": 800,
-      "experienceYears": 5,
-      "availableSlots": ["11:00", "13:30"],
-      "availableDays": ["Wed", "Fri", "Sat"],
-      "departmentId": 4
-    },
-    {
-      "id": 5,
-      "name": "Dr. Anjali Sharma",
-      "specialization": "neurology",
-      "fee": 1800,
-      "experienceYears": 14,
-      "availableSlots": ["10:00", "12:30", "17:00"],
-      "availableDays": ["Mon", "Wed"],
-      "departmentId": 5
+      "availableDays": ["Mon", "Tue", "Thu"]
     }
   ],
-
   "appointments": [
     {
       "id": 1,
@@ -100,56 +61,6 @@
       "notes": "Follow-up for chest pain",
       "status": "Confirmed",
       "createdAt": "2025-11-20T10:15:00.000Z"
-    },
-    {
-      "id": 2,
-      "patientId": 3,
-      "doctorId": 2,
-      "date": "2025-12-01",
-      "time": "09:30",
-      "notes": "Knee pain after playing football",
-      "status": "Pending",
-      "createdAt": "2025-11-21T11:00:00.000Z"
-    },
-    {
-      "id": 3,
-      "patientId": 4,
-      "doctorId": 3,
-      "date": "2025-11-29",
-      "time": "10:30",
-      "notes": "Routine child check-up",
-      "status": "Completed",
-      "createdAt": "2025-11-18T08:30:00.000Z"
-    },
-    {
-      "id": 4,
-      "patientId": 4,
-      "doctorId": 4,
-      "date": "2025-12-02",
-      "time": "11:00",
-      "notes": "Skin allergy on arms",
-      "status": "Confirmed",
-      "createdAt": "2025-11-22T09:45:00.000Z"
-    },
-    {
-      "id": 5,
-      "patientId": 5,
-      "doctorId": 1,
-      "date": "2025-12-03",
-      "time": "15:00",
-      "notes": "High blood pressure review",
-      "status": "Pending",
-      "createdAt": "2025-11-23T12:10:00.000Z"
-    },
-    {
-      "id": 6,
-      "patientId": 5,
-      "doctorId": 5,
-      "date": "2025-12-05",
-      "time": "17:00",
-      "notes": "Migraine and dizziness",
-      "status": "Cancelled",
-      "createdAt": "2025-11-24T13:20:00.000Z"
     }
   ]
 }
