@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Director",
+      "email": "director@hospital.com",
+      "password": "director123",
+      "role": "Director"
+    },
+    {
+      "id": 2,
+      "name": "Bob Manager",
+      "email": "manager@hospital.com",
+      "password": "manager123",
+      "role": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Patient",
+      "email": "user@hospital.com",
+      "password": "user123",
+      "role": "User"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Meera Nair",
+      "specialization": "cardiology",
+      "fee": 1500,
+      "experienceYears": 12,
+      "availableSlots": ["10:00", "11:30", "15:00"],
+      "availableDays": ["Mon", "Wed", "Fri"]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Arjun Rao",
+      "specialization": "orthopedics",
+      "fee": 1200,
+      "experienceYears": 9,
+      "availableSlots": ["09:30", "14:00"],
+      "availableDays": ["Tue", "Thu", "Sat"]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Kavya Menon",
+      "specialization": "pediatrics",
+      "fee": 900,
+      "experienceYears": 7,
+      "availableSlots": ["10:30", "12:00", "16:00"],
+      "availableDays": ["Mon", "Tue", "Thu"]
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 3,
+      "doctorId": 1,
+      "date": "2025-11-30",
+      "time": "10:00",
+      "notes": "Follow-up for chest pain",
+      "status": "Confirmed",
+      "createdAt": "2025-11-20T10:15:00.000Z"
+    }
+  ]
+}
